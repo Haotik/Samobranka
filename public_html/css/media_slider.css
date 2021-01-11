@@ -1,0 +1,476 @@
+@media (max-width: 1200px){
+	#overflow_clients{
+		width: 800px;
+	}
+	#slider_clients article{
+		width: 180px;
+		line-height: 135px;
+		margin-bottom: 20px;
+	}
+	#switch1_clients:checked ~ #controls_clients label:nth-child(4), 
+	#switch2_clients:checked ~ #controls_clients label:nth-child(1), 
+	#switch3_clients:checked ~ #controls_clients label:nth-child(2), 
+	#switch4_clients:checked ~ #controls_clients label:nth-child(3){
+		margin: 80px 0 0 -84px;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_clients:checked ~ #controls_clients label:nth-child(2), 
+	#switch2_clients:checked ~ #controls_clients label:nth-child(3),
+	#switch3_clients:checked ~ #controls_clients label:nth-child(4),
+	#switch4_clients:checked ~ #controls_clients label:nth-child(1){
+		margin: 80px -75px 0 0;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_clients:checked ~ #slides_clients .image_clients{
+		margin-left: 0;
+	}
+
+	#switch2_clients:checked ~ #slides_clients .image_clients{
+		margin-left: -200px;
+	}
+
+	#switch3_clients:checked ~ #slides_clients .image_clients{
+		margin-left: -400px;
+	}
+	#switch4_clients:checked ~ #slides_clients .image_clients{
+		margin-left: -600px;
+	}
+
+	#overflow_showroom{
+		width: 900px;
+	}
+
+	#slider_showroom article{
+	width: 280px;
+	}
+
+	#switch1_showroom:checked ~ #controls_showroom label:nth-child(3), 
+	#switch2_showroom:checked ~ #controls_showroom label:nth-child(1),
+	#switch3_showroom:checked ~ #controls_showroom label:nth-child(2){
+		margin: 80px 0 0 -50px;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_showroom:checked ~ #controls_showroom label:nth-child(2), 
+	#switch2_showroom:checked ~ #controls_showroom label:nth-child(3),
+	#switch3_showroom:checked ~ #controls_showroom label:nth-child(1){
+		margin: 80px -40px 0 0;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_showroom:checked ~ #slides_showroom .image_showroom{
+	margin-left: 0;
+	}
+
+	#switch2_showroom:checked ~ #slides_showroom .image_showroom{
+		margin-left: -300px;
+	}
+
+	#switch3_showroom:checked ~ #slides_showroom .image_showroom{
+		margin-left: -600px;
+	}
+
+	#overflow_otzuvu{
+		width: 900px;
+	}
+
+	#slider_otzuvu article{
+	width: 280px;
+	}
+
+	#switch1_otzuvu:checked ~ #controls_otzuvu label:nth-child(3), 
+	#switch2_otzuvu:checked ~ #controls_otzuvu label:nth-child(1),
+	#switch3_otzuvu:checked ~ #controls_otzuvu label:nth-child(2){
+		margin: 20px 0 0 -50px;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_otzuvu:checked ~ #controls_otzuvu label:nth-child(2), 
+	#switch2_otzuvu:checked ~ #controls_otzuvu label:nth-child(3),
+	#switch3_otzuvu:checked ~ #controls_otzuvu label:nth-child(1){
+		margin: 20px -40px 0 0;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+	margin-left: 0;
+	}
+
+	#switch2_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+		margin-left: -300px;
+	}
+
+	#switch3_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+		margin-left: -600px;
+	}
+
+
+}
+@media (max-width: 950px){
+	.all_clients{
+		margin-top: 30px;
+	}
+	#overflow_clients{
+		width: 700px;
+	}
+	#slider_clients article{
+		width: 155px;
+		line-height: 100px;
+		margin-bottom: 20px;
+	}
+	#switch1_clients:checked ~ #controls_clients label:nth-child(4), 
+	#switch2_clients:checked ~ #controls_clients label:nth-child(1), 
+	#switch3_clients:checked ~ #controls_clients label:nth-child(2), 
+	#switch4_clients:checked ~ #controls_clients label:nth-child(3){
+		margin: 50px 0 0 -55px;
+		height: 48px;
+		width: 48px;
+	}
+	#switch1_clients:checked ~ #controls_clients label:nth-child(2), 
+	#switch2_clients:checked ~ #controls_clients label:nth-child(3),
+	#switch3_clients:checked ~ #controls_clients label:nth-child(4),
+	#switch4_clients:checked ~ #controls_clients label:nth-child(1){
+		margin: 50px -45px 0 0;
+		height: 48px;
+		width: 48px;
+	}
+	#switch1_clients:checked ~ #slides_clients .image_clients{
+		margin-left: 0;
+	}
+
+	#switch2_clients:checked ~ #slides_clients .image_clients{
+		margin-left: -175px;
+	}
+
+	#switch3_clients:checked ~ #slides_clients .image_clients{
+		margin-left: -350px;
+	}
+	#switch4_clients:checked ~ #slides_clients .image_clients{
+		margin-left: -525px;
+	}
+	.showroom{
+		height: auto;
+	}
+	#overflow_showroom{
+		width: 750px;
+	}
+
+	#slider_showroom article{
+	width: 230px;
+	}
+
+	#switch1_showroom:checked ~ #controls_showroom label:nth-child(3), 
+	#switch2_showroom:checked ~ #controls_showroom label:nth-child(1),
+	#switch3_showroom:checked ~ #controls_showroom label:nth-child(2){
+		margin: 50px 0 0 -50px;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_showroom:checked ~ #controls_showroom label:nth-child(2), 
+	#switch2_showroom:checked ~ #controls_showroom label:nth-child(3),
+	#switch3_showroom:checked ~ #controls_showroom label:nth-child(1){
+		margin: 50px -45px 0 0;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_showroom:checked ~ #slides_showroom .image_showroom{
+	margin-left: 0;
+	}
+
+	#switch2_showroom:checked ~ #slides_showroom .image_showroom{
+		margin-left: -240px;
+	}
+
+	#switch3_showroom:checked ~ #slides_showroom .image_showroom{
+		margin-left: -480px;
+	}
+
+	.otzuvu{
+		height: auto;
+	}
+	#overflow_otzuvu{
+		width: 750px;
+	}
+
+	#slider_otzuvu article{
+	width: 230px;
+	}
+
+	#switch1_otzuvu:checked ~ #controls_otzuvu label:nth-child(3), 
+	#switch2_otzuvu:checked ~ #controls_otzuvu label:nth-child(1),
+	#switch3_otzuvu:checked ~ #controls_otzuvu label:nth-child(2){
+		margin: 50px 0 0 -50px;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_otzuvu:checked ~ #controls_otzuvu label:nth-child(2), 
+	#switch2_otzuvu:checked ~ #controls_otzuvu label:nth-child(3),
+	#switch3_otzuvu:checked ~ #controls_otzuvu label:nth-child(1){
+		margin: 50px -45px 0 0;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+	margin-left: 0;
+	}
+
+	#switch2_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+		margin-left: -240px;
+	}
+
+	#switch3_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+		margin-left: -480px;
+	}
+}
+@media (max-width: 800px){
+	
+	#switch1_clients:checked ~ #controls_clients label:nth-child(4), 
+	#switch2_clients:checked ~ #controls_clients label:nth-child(1), 
+	#switch3_clients:checked ~ #controls_clients label:nth-child(2), 
+	#switch4_clients:checked ~ #controls_clients label:nth-child(3){
+		margin: 50px 0 0 -40px;
+		height: 48px;
+		width: 48px;
+	}
+	#switch1_clients:checked ~ #controls_clients label:nth-child(2), 
+	#switch2_clients:checked ~ #controls_clients label:nth-child(3),
+	#switch3_clients:checked ~ #controls_clients label:nth-child(4),
+	#switch4_clients:checked ~ #controls_clients label:nth-child(1){
+		margin: 50px -30px 0 0;
+		height: 48px;
+		width: 48px;
+	}
+
+	.showroom{
+		height: auto;
+	}
+	#overflow_showroom{
+		width: 650px;
+	}
+
+	#slider_showroom article{
+	width: 200px;
+	}
+	
+	#switch1_showroom:checked ~ #controls_showroom label:nth-child(3), 
+	#switch2_showroom:checked ~ #controls_showroom label:nth-child(1),
+	#switch3_showroom:checked ~ #controls_showroom label:nth-child(2){
+		margin: 50px 0 0 -50px;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_showroom:checked ~ #controls_showroom label:nth-child(2), 
+	#switch2_showroom:checked ~ #controls_showroom label:nth-child(3),
+	#switch3_showroom:checked ~ #controls_showroom label:nth-child(1){
+		margin: 50px -45px 0 0;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+
+	#switch1_showroom:checked ~ #slides_showroom .image_showroom{
+	margin-left: 0;
+	}
+
+	#switch2_showroom:checked ~ #slides_showroom .image_showroom{
+		margin-left: -215px;
+	}
+
+	#switch3_showroom:checked ~ #slides_showroom .image_showroom{
+		margin-left: -435px;
+	}
+
+	.otzuvu{
+		height: auto;
+	}
+	#overflow_otzuvu{
+		width: 700px;
+	}
+
+	#slider_otzuvu article{
+	width: 200px;
+	margin-right: 28px;
+	}
+
+	article .otzuv{
+		min-width: auto;
+		width: 100%;
+		margin: 30px 15px;
+	}
+	
+	#switch1_otzuvu:checked ~ #controls_otzuvu label:nth-child(3), 
+	#switch2_otzuvu:checked ~ #controls_otzuvu label:nth-child(1),
+	#switch3_otzuvu:checked ~ #controls_otzuvu label:nth-child(2){
+		margin: 200px 0 0 50px;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+	#switch1_otzuvu:checked ~ #controls_otzuvu label:nth-child(2), 
+	#switch2_otzuvu:checked ~ #controls_otzuvu label:nth-child(3),
+	#switch3_otzuvu:checked ~ #controls_otzuvu label:nth-child(1){
+		margin: 200px 50px 0 0;
+		height: 48px;
+		width: 48px;
+		background-size: contain;
+	}
+
+	#switch1_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+	margin-left: 0;
+	}
+
+	#switch2_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+		margin-left: -235px;
+	}
+
+	#switch3_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+		margin-left: -470px;
+	}
+}
+
+@media (max-width: 700px){
+	.all_clients{
+		margin-top: 30px;
+	}
+	#overflow_clients{
+		width: 280px;
+	}
+	#slider_clients article{
+		width: 120px;
+		line-height: 60px;
+		margin-bottom: 20px;
+		margin: 10px
+	}
+
+	#controls_clients{
+		margin-top: -220px;
+	}
+	#switch1_clients:checked ~ #controls_clients label:nth-child(4), 
+	#switch2_clients:checked ~ #controls_clients label:nth-child(1), 
+	#switch3_clients:checked ~ #controls_clients label:nth-child(2), 
+	#switch4_clients:checked ~ #controls_clients label:nth-child(3){
+		margin: 50px 0 0 0;
+		height: 20px;
+		width: 20px;
+	}
+	#switch1_clients:checked ~ #controls_clients label:nth-child(2), 
+	#switch2_clients:checked ~ #controls_clients label:nth-child(3),
+	#switch3_clients:checked ~ #controls_clients label:nth-child(4),
+	#switch4_clients:checked ~ #controls_clients label:nth-child(1){
+		margin: 50px 0 0 0;
+		height: 20px;
+		width: 20px;
+	}
+	#switch1_clients:checked ~ #slides_clients .image_clients{
+		margin-left: 0;
+	}
+
+	#switch2_clients:checked ~ #slides_clients .image_clients{
+		margin-left: -140px;
+	}
+
+	#switch3_clients:checked ~ #slides_clients .image_clients{
+		margin-left: -280px;
+	}
+	#switch4_clients:checked ~ #slides_clients .image_clients{
+		margin-left: -420px;
+	}
+
+	#overflow_showroom{
+		width: 280px;
+	}
+
+	#slider_showroom article{
+	width: 270px;
+	margin-right: 10px;
+	}
+	#active_showroom{
+		margin:40px 0 0 0;
+	}
+
+	#switch1_showroom:checked ~ #controls_showroom label:nth-child(3), 
+	#switch2_showroom:checked ~ #controls_showroom label:nth-child(1),
+	#switch3_showroom:checked ~ #controls_showroom label:nth-child(2){
+		margin: 85px 0 0 0px;
+		height: 20px;
+		width: 20px;
+		background-size: contain;
+	}
+	#switch1_showroom:checked ~ #controls_showroom label:nth-child(2), 
+	#switch2_showroom:checked ~ #controls_showroom label:nth-child(3),
+	#switch3_showroom:checked ~ #controls_showroom label:nth-child(1){
+		margin: 85px 20px 0 0;
+		height: 20px;
+		width: 20px;
+		background-size: contain;
+	}
+	#switch1_showroom:checked ~ #slides_showroom .image_showroom{
+	margin-left: 0;
+	}
+
+	#switch2_showroom:checked ~ #slides_showroom .image_showroom{
+		margin-left: -280px;
+	}
+
+	#switch3_showroom:checked ~ #slides_showroom .image_showroom{
+		margin-left: -560px;
+	}
+	
+	.otzuvu_container h3{
+		margin-bottom: 0px;
+	}
+
+	#overflow_otzuvu{
+		width: 320px;
+		margin: 30px auto;
+	}
+
+	#slider_otzuvu article{
+	width: 270px;
+    margin-right: 50px;
+	}
+	#active_otzuvu{
+		margin:40px 0 0 0;
+	}
+
+	#switch1_otzuvu:checked ~ #controls_otzuvu label:nth-child(3), 
+	#switch2_otzuvu:checked ~ #controls_otzuvu label:nth-child(1),
+	#switch3_otzuvu:checked ~ #controls_otzuvu label:nth-child(2){
+		margin: 85px 0 0 20px;
+		height: 20px;
+		width: 20px;
+		background-size: contain;
+	}
+	#switch1_otzuvu:checked ~ #controls_otzuvu label:nth-child(2), 
+	#switch2_otzuvu:checked ~ #controls_otzuvu label:nth-child(3),
+	#switch3_otzuvu:checked ~ #controls_otzuvu label:nth-child(1){
+		margin: 85px 20px 0 0;
+		height: 20px;
+		width: 20px;
+		background-size: contain;
+	}
+	#switch1_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+	margin-left: 0;
+	}
+
+	#switch2_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+		margin-left: -325px;
+	}
+
+	#switch3_otzuvu:checked ~ #slides_otzuvu .image_otzuvu{
+		margin-left: -645px;
+	}
+}
